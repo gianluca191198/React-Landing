@@ -5,8 +5,6 @@ import cuarto from '../assets/cuarto.svg';
 import medio from '../assets/medio.svg';
 import kilo from '../assets/1kg.svg';
 import cucurucho from '../assets/cucurucho.svg';
-import Imagenes from './Imagenes';
-import imagen1 from '../assets/helados.jpg';
 
 const Body = () => {
 
@@ -38,8 +36,6 @@ const Body = () => {
                     </div>
                 </div>
             </div>
-            {/* <Imagenes/> */}
-            {/* <img className="imagen" src={imagen1}/> */}
             <div className="precios">
                 <div className="precios-container container">
                     <div className="precios-valor">
