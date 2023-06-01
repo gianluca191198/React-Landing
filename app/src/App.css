@@ -1,0 +1,133 @@
+.titulo{
+  background: #c1e1c3;
+  padding-top: 30px;
+  font-family: 'Monserrat';
+}
+
+.linea{
+  height: 5px;
+}
+
+.helado{
+  height: 100px;
+  padding: 10px 10px 10px 10px;
+  margin: 10px 0px 10px 0px;
+}
+
+.divider-custom {
+  margin: 1.25rem 0 1.5rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.divider-custom .divider-custom-line {
+  width: 100%;
+  max-width: 7rem;
+  height: 0.25rem;
+  background-color: #2c3e50;
+  border-radius: 1rem;
+  border-color: #2c3e50;
+}
+.icono{
+  height: 50px;
+  color: white;
+  background-color: #fff;
+  border-radius: 5px;
+  border-color: #caa770;
+  border-width: 2px;
+  border-style: solid;
+}
+
+.precios{
+  background-color: #fff;
+  align-self: center;
+  justify-content: center;
+  margin: 50px 50px 50px 50px;
+}
+.precios-container{
+  background-color: #c1e1c3;
+  height: 550px;
+  width: 1000px;
+  border-radius: 5px;
+  border-color: #caa770;
+  border-style: solid;
+  border-width: 2px;
+  font-family: "Monserrat";
+  font-size: 30px;
+  justify-content: center;
+  text-align: center;
+}
+
+.precios-container div{
+  display: inline-block;
+  margin: 5px 10px 5px 5px;
+}
+
+.precios-container div .precio{
+  display: inline-block;
+  margin: 15px 10px 10px 50px;
+}
+
+.precios-valor{
+  text-align: center;
+  height: 180px;
+  width: 900px;
+  font-size: 25px;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 15px;
+  border-bottom: #3f4e5e solid;
+  border-width: 1px;
+}
+
+.precio-valor{
+  width: 60px;
+}
+
+.sabores{
+  text-align: center;
+  align-content: center;
+  margin-left: 10px
+}
+
+.divider-custom .divider-custom-line:first-child {
+  margin-right: 1rem;
+}
+.divider-custom .divider-custom-line:last-child {
+  margin-left: 1rem;
+}
+.divider-custom .divider-custom-icon {
+  color: #2c3e50;
+  font-size: 2rem;
+}
+.divider-custom.divider-light .divider-custom-line {
+  background-color: #999999;
+}
+.divider-custom.divider-light .divider-custom-icon {
+  color: #fff;
+}
+
+.footer{
+  background-color: #b9965d;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.subtitulo{
+  font-size: 20px;
+}
+
+.footer p{
+  padding: 5px 10px 5px 10px;
+  margin: 5px 10px 5px 10px;
+}
+
+.imagen{
+  height: 100px
+}
+
+.imagenes{
+  display: flex;
+  align-content: center;
+}
